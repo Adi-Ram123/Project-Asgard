@@ -1,0 +1,2 @@
+make the sand tiles not influenced by the grass tiles that surround it but grass is influenced by the sand tiles that surround it
+also make sure that the outer edges have a new tile for the sand that properly transitions from the grass one
