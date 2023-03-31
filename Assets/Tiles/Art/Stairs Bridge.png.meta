@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -213,7 +213,7 @@ TextureImporter:
       name: Stairs Bridge_6
       rect:
         serializedVersion: 2
-        x: 144
+        x: 112
         y: 80
         width: 16
         height: 16
@@ -234,7 +234,7 @@ TextureImporter:
       name: Stairs Bridge_7
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 80
         width: 16
         height: 16
@@ -255,8 +255,8 @@ TextureImporter:
       name: Stairs Bridge_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 144
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -276,8 +276,8 @@ TextureImporter:
       name: Stairs Bridge_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
+        x: 160
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -297,7 +297,7 @@ TextureImporter:
       name: Stairs Bridge_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 64
         width: 16
         height: 16
@@ -318,7 +318,7 @@ TextureImporter:
       name: Stairs Bridge_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 16
         y: 64
         width: 16
         height: 16
@@ -339,7 +339,7 @@ TextureImporter:
       name: Stairs Bridge_12
       rect:
         serializedVersion: 2
-        x: 80
+        x: 32
         y: 64
         width: 16
         height: 16
@@ -360,7 +360,7 @@ TextureImporter:
       name: Stairs Bridge_13
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 64
         width: 16
         height: 16
@@ -381,7 +381,7 @@ TextureImporter:
       name: Stairs Bridge_14
       rect:
         serializedVersion: 2
-        x: 128
+        x: 80
         y: 64
         width: 16
         height: 16
@@ -402,7 +402,7 @@ TextureImporter:
       name: Stairs Bridge_15
       rect:
         serializedVersion: 2
-        x: 144
+        x: 96
         y: 64
         width: 16
         height: 16
@@ -423,7 +423,7 @@ TextureImporter:
       name: Stairs Bridge_16
       rect:
         serializedVersion: 2
-        x: 160
+        x: 112
         y: 64
         width: 16
         height: 16
@@ -444,8 +444,8 @@ TextureImporter:
       name: Stairs Bridge_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 128
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -465,8 +465,8 @@ TextureImporter:
       name: Stairs Bridge_18
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 144
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -486,7 +486,7 @@ TextureImporter:
       name: Stairs Bridge_19
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 48
         width: 16
         height: 16
@@ -507,7 +507,7 @@ TextureImporter:
       name: Stairs Bridge_20
       rect:
         serializedVersion: 2
-        x: 64
+        x: 16
         y: 48
         width: 16
         height: 16
@@ -528,7 +528,7 @@ TextureImporter:
       name: Stairs Bridge_21
       rect:
         serializedVersion: 2
-        x: 80
+        x: 32
         y: 48
         width: 16
         height: 16
@@ -549,7 +549,7 @@ TextureImporter:
       name: Stairs Bridge_22
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 48
         width: 16
         height: 16
@@ -570,7 +570,7 @@ TextureImporter:
       name: Stairs Bridge_23
       rect:
         serializedVersion: 2
-        x: 128
+        x: 80
         y: 48
         width: 16
         height: 16
@@ -591,7 +591,7 @@ TextureImporter:
       name: Stairs Bridge_24
       rect:
         serializedVersion: 2
-        x: 144
+        x: 96
         y: 48
         width: 16
         height: 16
@@ -612,8 +612,8 @@ TextureImporter:
       name: Stairs Bridge_25
       rect:
         serializedVersion: 2
-        x: 160
-        y: 48
+        x: 0
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -633,7 +633,7 @@ TextureImporter:
       name: Stairs Bridge_26
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 32
         width: 16
         height: 16
@@ -654,7 +654,7 @@ TextureImporter:
       name: Stairs Bridge_27
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 32
         width: 16
         height: 16
@@ -675,7 +675,7 @@ TextureImporter:
       name: Stairs Bridge_28
       rect:
         serializedVersion: 2
-        x: 32
+        x: 64
         y: 32
         width: 16
         height: 16
@@ -696,7 +696,7 @@ TextureImporter:
       name: Stairs Bridge_29
       rect:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 32
         width: 16
         height: 16
@@ -717,7 +717,7 @@ TextureImporter:
       name: Stairs Bridge_30
       rect:
         serializedVersion: 2
-        x: 80
+        x: 96
         y: 32
         width: 16
         height: 16
@@ -738,8 +738,8 @@ TextureImporter:
       name: Stairs Bridge_31
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 0
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -759,8 +759,8 @@ TextureImporter:
       name: Stairs Bridge_32
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 16
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -780,8 +780,8 @@ TextureImporter:
       name: Stairs Bridge_33
       rect:
         serializedVersion: 2
-        x: 144
-        y: 32
+        x: 32
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -801,8 +801,8 @@ TextureImporter:
       name: Stairs Bridge_34
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
+        x: 64
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -822,7 +822,7 @@ TextureImporter:
       name: Stairs Bridge_35
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 16
         width: 16
         height: 16
@@ -864,7 +864,7 @@ TextureImporter:
       name: Stairs Bridge_36
       rect:
         serializedVersion: 2
-        x: 16
+        x: 96
         y: 16
         width: 16
         height: 16
@@ -885,8 +885,8 @@ TextureImporter:
       name: Stairs Bridge_37
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
+        x: 0
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -906,8 +906,8 @@ TextureImporter:
       name: Stairs Bridge_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
+        x: 16
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -927,8 +927,8 @@ TextureImporter:
       name: Stairs Bridge_39
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
+        x: 32
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -948,8 +948,8 @@ TextureImporter:
       name: Stairs Bridge_40
       rect:
         serializedVersion: 2
-        x: 96
-        y: 16
+        x: 64
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -969,8 +969,8 @@ TextureImporter:
       name: Stairs Bridge_41
       rect:
         serializedVersion: 2
-        x: 128
-        y: 16
+        x: 80
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -990,153 +990,6 @@ TextureImporter:
       name: Stairs Bridge_42
       rect:
         serializedVersion: 2
-        x: 144
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cfd9e1b328f1564fbbc0b757c070b92
-      internalID: 797920008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_43
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f210338d4788504dbe3c1d26d30aa9f
-      internalID: 8647978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_44
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5abe69579cdd134d9d2fbfcf759dfcc
-      internalID: -182597933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_45
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af8cb443fc5fa3649a326f67820e7c47
-      internalID: -2130648680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_46
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e94a5079bffeea84394b81603d646769
-      internalID: -728640111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_47
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c0f1c3393e36594da48d4eb66a7cde4
-      internalID: 790424713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_48
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20f8364bb77b7c44bb864f5bf09fe510
-      internalID: 501461969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_49
-      rect:
-        serializedVersion: 2
         x: 96
         y: 0
         width: 16
@@ -1148,50 +1001,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b83135f8fc322c48b0442b2bb57748d
-      internalID: -1141256330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_50
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c799845a8c376b7409e38900f13e0401
-      internalID: 1111324875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stairs Bridge_51
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23914e80b373ae2438277b82201cc1aa
-      internalID: -1023420444
+      spriteID: 5e030f008f3be2d4f9946a6ba8f83ded
+      internalID: -1579466024
       vertices: []
       indices: 
       edges: []
@@ -1244,17 +1055,8 @@ TextureImporter:
       Stairs Bridge_4: -581477817
       Stairs Bridge_40: 1340746560
       Stairs Bridge_41: 739133710
-      Stairs Bridge_42: 797920008
-      Stairs Bridge_43: 8647978
-      Stairs Bridge_44: -182597933
-      Stairs Bridge_45: -2130648680
-      Stairs Bridge_46: -728640111
-      Stairs Bridge_47: 790424713
-      Stairs Bridge_48: 501461969
-      Stairs Bridge_49: -1141256330
+      Stairs Bridge_42: -1579466024
       Stairs Bridge_5: 1182818601
-      Stairs Bridge_50: 1111324875
-      Stairs Bridge_51: -1023420444
       Stairs Bridge_6: 768378811
       Stairs Bridge_7: 1967403159
       Stairs Bridge_8: -400440809
