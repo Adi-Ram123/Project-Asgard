@@ -16,5 +16,11 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
+    void FixedUpdate()
+    {
+        if (Options.selected.Equals("Fight"))
+        {
 
+        }
+    }
 }

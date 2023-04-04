@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Options : MonoBehaviour
 {
+    public static string selected;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,10 @@ public class Options : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+        selected = gameObject.name;
     }
 }
