@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private bool combat;
+    [SerializeField] float speed;
     private Animator anime;
     private Rigidbody2D rb;
     private Vector2 move;
@@ -21,7 +20,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
 
-        if (!combat && !pressed && Input.GetKeyDown(KeyCode.A))
+        if (!pressed && Input.GetKeyDown(KeyCode.A))
         {
             walk = true;
             pressed = true;
@@ -35,7 +34,7 @@ public class Movement : MonoBehaviour
             pressed = false;
         }
 
-        if (!combat && !pressed && Input.GetKeyDown(KeyCode.D))
+        if (!pressed && Input.GetKeyDown(KeyCode.D))
         {
             walk = true;
             pressed = true;
@@ -49,7 +48,7 @@ public class Movement : MonoBehaviour
             pressed = false;
         }
 
-        if (!combat && !pressed && Input.GetKeyDown(KeyCode.W))
+        if (!pressed && Input.GetKeyDown(KeyCode.W))
         {
             walk = true;
             pressed = true;
@@ -64,7 +63,7 @@ public class Movement : MonoBehaviour
 
         }
 
-        if (!combat && !pressed && Input.GetKeyDown(KeyCode.S))
+        if (!pressed && Input.GetKeyDown(KeyCode.S))
         {
             walk = true;
             pressed = true;
