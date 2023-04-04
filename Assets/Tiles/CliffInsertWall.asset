@@ -160,8 +160,6 @@ MonoBehaviour:
   tilesToConnect:
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 4796f61f0d5c9494092b4531799d4cb8, type: 2}
-  - {fileID: 11400000, guid: 4d9bbf9c7ee066e4abb1508cb266c9f0, type: 2}
-  - {fileID: 11400000, guid: 2c3b5889b45c9c140a1df6872fedfd94, type: 2}
   - {fileID: 11400000, guid: c33a7db61bc4e184aa0cf7edb2b5a9ce, type: 2}
   - {fileID: 11400000, guid: b28cece71ba743446813622bbf249104, type: 2}
   - {fileID: 11400000, guid: c6b49f0e85706bf4b8a2f9f394f85e74, type: 2}
