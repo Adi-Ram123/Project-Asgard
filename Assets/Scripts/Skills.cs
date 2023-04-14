@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Skills
+public class Skills: MonoBehaviour
 {
     private List<Moves> moves;
 
-    public Skills()
+    public void Start()
     {
         moves = new List<Moves>();
 
