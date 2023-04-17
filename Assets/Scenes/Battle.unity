@@ -7192,6 +7192,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3669454081298968505, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 683404723}
+    - target: {fileID: 3669454081298968505, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+      propertyPath: combat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669454081298968505, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+      propertyPath: desiredDuration
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3669454081298968506, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
       propertyPath: m_Name
       value: Barb
