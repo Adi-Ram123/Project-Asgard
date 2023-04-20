@@ -16,6 +16,8 @@ public class Options : MonoBehaviour
     [SerializeField] GameObject status;
     [SerializeField] GameObject run;
 
+    [SerializeField] GameObject enemy;
+
     private int turn; // 0 is player, 1 is enemy
     // Start is called before the first frame update
     void Start()
@@ -42,6 +44,7 @@ public class Options : MonoBehaviour
             status.SetActive(false);
             run.SetActive(false);
             items.SetActive(false);
+            movedesc.SetActive(false);
         }
     }
 
@@ -80,7 +83,7 @@ public class Options : MonoBehaviour
 
     public void Attack()
     {
-        // code for when the player selects a move
+        
     }
 
 }

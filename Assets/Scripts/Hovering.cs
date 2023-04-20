@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField] GameObject health;
     [SerializeField] GameObject movedesc;
@@ -17,9 +17,14 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] Text mp;
 
     private Moves move;
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        move = Skills.GetMove(moveName.text);
         desc.text = move.desc;
         type.text = "Type: " + move.type;
         power.text = "Power: " + move.power.ToString();
@@ -38,7 +43,8 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     // Start is called before the first frame update
     void Start()
     {
-        Skills.List();
+        Skills.StoreList();
+        move = Skills.GetMove(moveName.text);
     }
 
     // Update is called once per frame
