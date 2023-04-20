@@ -138,4 +138,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c33a7db61bc4e184aa0cf7edb2b5a9ce, type: 2}
   - {fileID: 11400000, guid: b28cece71ba743446813622bbf249104, type: 2}
   - {fileID: 11400000, guid: c6b49f0e85706bf4b8a2f9f394f85e74, type: 2}
+  - {fileID: 11400000, guid: f65c6ff11df4b5d43ad32285be8d90b6, type: 2}
   checkSelf: 1

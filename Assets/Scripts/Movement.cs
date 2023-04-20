@@ -1,108 +1,101 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Presets;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] float speed;
-    private Animator anime;
-    private Rigidbody2D rb;
-    private Vector2 move;
-    private bool walk, pressed;
+    [Header("Input & Mvmt")]
+    [SerializeField] float speed = 10;
+    private List<KeyCode> presses;
+
+
+    [Header("Components")]
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] Animator anim;
+
+    
     // Start is called before the first frame update
     void Start()
     {
-        anime = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        presses = new List<KeyCode>(); 
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (!pressed && Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            walk = true;
-            pressed = true;
-            move.x = Input.GetAxisRaw("Horizontal");
-
+            presses.Add(KeyCode.A);
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            presses.Add(KeyCode.W);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            presses.Add(KeyCode.D);
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            presses.Add(KeyCode.S);
         }
 
+        
         if (Input.GetKeyUp(KeyCode.A))
         {
-            walk = false;
-            pressed = false;
+            presses.Remove(KeyCode.A);
         }
-
-        if (!pressed && Input.GetKeyDown(KeyCode.D))
-        {
-            walk = true;
-            pressed = true;
-            move.x = Input.GetAxisRaw("Horizontal");
-
-        }
-
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            walk = false;
-            pressed = false;
-        }
-
-        if (!pressed && Input.GetKeyDown(KeyCode.W))
-        {
-            walk = true;
-            pressed = true;
-            move.y = Input.GetAxisRaw("Vertical");
-
-        }
-
         if (Input.GetKeyUp(KeyCode.W))
         {
-            walk = false;
-            pressed = false;
-
+            presses.Remove(KeyCode.W);
         }
-
-        if (!pressed && Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.D))
         {
-            walk = true;
-            pressed = true;
-            move.y = Input.GetAxisRaw("Vertical");
-
+            presses.Remove(KeyCode.D);
         }
-
         if (Input.GetKeyUp(KeyCode.S))
         {
-            walk = false;
-            pressed = false;
-
+            presses.Remove(KeyCode.S);
         }
-
     }
 
-   
+    public void Move(int x, int y)
+    {
+        anim.SetFloat("horiz", x);
+        anim.SetFloat("vert", y);
+
+        rb.velocity = new Vector2(x, y) * speed;
+    }
 
     private void FixedUpdate()
     {
-        if (move != Vector2.zero)
+        if (presses.Count > 0)
         {
-            anime.SetFloat("xInput", move.x);
-            anime.SetFloat("yInput", move.y);
+            anim.SetBool("move", true);
+            if (presses[^1] == KeyCode.A)
+            {
+                Move(-1, 0);
+            }
+            if (presses[^1] == KeyCode.S)
+            {
+                Move(0, -1);
+            }
+            if (presses[^1] == KeyCode.W)
+            {
+                Move(0, 1);
+            }
+            if (presses[^1] == KeyCode.D)
+            {
+                Move(1, 0);
+            }
         }
-
-        if (walk)
-        {
-            anime.SetBool("Walk", true);
-            rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
-        }
-
         else
         {
-            anime.SetBool("Walk", false);
-            move = Vector2.zero;
+            anim.SetBool("move", false);
 
+            rb.velocity = Vector2.zero;
         }
-
     }
-
+    
 }
