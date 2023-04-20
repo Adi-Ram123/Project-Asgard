@@ -10,15 +10,14 @@ public class Movement : MonoBehaviour
     private Animator anime;
     private Rigidbody2D rb;
     private Vector2 move;
-    private bool walk, pressed, attack;
-    private float elapsedTime;
-    [SerializeField] float desiredDuration;
+    private bool walk, pressed;
+
+
     // Start is called before the first frame update
     void Start()
     {
         anime = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        attack = false;
     }
 
     // Update is called once per frame
@@ -83,31 +82,6 @@ public class Movement : MonoBehaviour
                 walk = false;
                 pressed = false;
 
-            }
-        }
-
-        else
-        {
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                attack = true;
-            }
-
-            if(attack)
-            {
-                elapsedTime += Time.deltaTime;
-                float percent = elapsedTime / desiredDuration;
-                transform.position = Vector3.Lerp(GetComponent<Transform>().position, enemy.GetComponent<Transform>().position, percent);
-                Debug.Log(percent);
-
-                if (percent >= 1)
-                {
-                    attack = false;
-                    Debug.Log("Test");
-                    anime.SetTrigger("Slash");
-
-
-                }
             }
         }
 

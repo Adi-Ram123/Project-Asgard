@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3669454081298968504}
   - component: {fileID: 3669454081298968505}
   - component: {fileID: 3669454081298968517}
-  - component: {fileID: 1017655060598407687}
+  - component: {fileID: 7367034054397515388}
   m_Layer: 0
   m_Name: Barb
   m_TagString: Untagged
@@ -121,9 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  combat: 0
+  combat: 1
   enemy: {fileID: 0}
-  desiredDuration: 0
 --- !u!50 &3669454081298968517
 Rigidbody2D:
   serializedVersion: 4
@@ -145,7 +144,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1017655060598407687
+--- !u!114 &7367034054397515388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,10 +153,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3669454081298968506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5683f6c1a3c3b8c42978f7509a6b4254, type: 3}
+  m_Script: {fileID: 11500000, guid: 467d806bf6f9f9448b6c697da8f8bd07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  mana: 0
-  type: 
-  moveCount: 0
+  goalPosition: {x: 3, y: -0.68, z: 0}
+  speed: 3
