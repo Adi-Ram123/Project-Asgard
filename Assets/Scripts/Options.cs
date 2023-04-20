@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
@@ -8,15 +10,24 @@ public class Options : MonoBehaviour
     [SerializeField] GameObject mainCanvas;
     [SerializeField] GameObject fight;
     [SerializeField] GameObject health;
-    [SerializeField] GameObject moves;
+    [SerializeField] GameObject movedesc;
     [SerializeField] GameObject items;
+    [SerializeField] GameObject itemdesc;
     [SerializeField] GameObject status;
     [SerializeField] GameObject run;
+
+    private int turn; // 0 is player, 1 is enemy
     // Start is called before the first frame update
     void Start()
     {
-        moves.SetActive(false);
+        turn = 0;
+        movedesc.SetActive(false);
         fight.SetActive(false);
+        status.SetActive(false);
+        run.SetActive(false);
+        items.SetActive(false);
+        itemdesc.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -25,7 +36,12 @@ public class Options : MonoBehaviour
         if (Input.GetKey(KeyCode.Escape))
         {
             // set all other canvases inactive
+            health.SetActive(true);
             mainCanvas.SetActive(true);
+            fight.SetActive(false);
+            status.SetActive(false);
+            run.SetActive(false);
+            items.SetActive(false);
         }
     }
 
@@ -37,23 +53,34 @@ public class Options : MonoBehaviour
 
     public void Status()
     {
-        mainCanvas.SetActive(false);
-        //status.SetActive(true);
+        health.SetActive(false);
+        status.SetActive(true);
     }
 
     public void Items()
     {
         mainCanvas.SetActive(false);
-        //items.SetActive(true);
+        items.SetActive(true);
     }
 
     public void Run()
     {
+        health.SetActive(false);
+        run.SetActive(true);
         if (Random.value > 0.5f)
         {
-            int x = 3; // placeholder
-            // add code to change text object such that it
-            // shows whether player successfully ran away
+            run.GetComponentInChildren<Text>().text = "Escaped!";
         }
+        else
+        {
+            run.GetComponentInChildren<Text>().text = "Escape Failed!";
+        }
+        turn = 1;
     }
+
+    public void Attack()
+    {
+        // code for when the player selects a move
+    }
+
 }
