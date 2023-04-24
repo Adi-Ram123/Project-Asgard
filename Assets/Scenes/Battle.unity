@@ -862,6 +862,7 @@ MonoBehaviour:
   power: {fileID: 834774889}
   accuracy: {fileID: 1668869230}
   mp: {fileID: 454085807}
+  player: {fileID: 0}
 --- !u!1 &71548413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,6 +2141,7 @@ MonoBehaviour:
   power: {fileID: 834774889}
   accuracy: {fileID: 1668869230}
   mp: {fileID: 454085807}
+  player: {fileID: 0}
 --- !u!1 &361465704
 GameObject:
   m_ObjectHideFlags: 0
@@ -3280,6 +3282,7 @@ MonoBehaviour:
   power: {fileID: 834774889}
   accuracy: {fileID: 1668869230}
   mp: {fileID: 454085807}
+  player: {fileID: 0}
 --- !u!1 &510327323
 GameObject:
   m_ObjectHideFlags: 0
@@ -5447,7 +5450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169.45985, y: -124.09}
+  m_AnchoredPosition: {x: 169.45985, y: -121.7}
   m_SizeDelta: {x: 246.94, y: 28.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1270963348
@@ -7709,8 +7712,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1017655060598407687, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
 --- !u!1 &1910033401
 GameObject:
@@ -7819,6 +7821,7 @@ MonoBehaviour:
   power: {fileID: 834774889}
   accuracy: {fileID: 1668869230}
   mp: {fileID: 454085807}
+  player: {fileID: 0}
 --- !u!1 &1938618362
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,11 +16,15 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] Text accuracy;
     [SerializeField] Text mp;
 
+    [SerializeField] GameObject player;
+
     private Moves move;
+
+    private Lerp lerp;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        
+        lerp.SetMove(true);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -45,6 +49,7 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         Skills.StoreList();
         move = Skills.GetMove(moveName.text);
+        lerp = player.GetComponent<Lerp>();
     }
 
     // Update is called once per frame
