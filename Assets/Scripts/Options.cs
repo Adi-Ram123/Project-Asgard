@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -16,14 +17,17 @@ public class Options : MonoBehaviour
     [SerializeField] GameObject status;
     [SerializeField] GameObject run;
     [SerializeField] GameObject attackDisplay;
+    [SerializeField] GameObject won;
 
     [SerializeField] GameObject enemy;
-
-    private int turn; // 0 is player, 1 is enemy
+    public bool go;
+    public string turn;
     // Start is called before the first frame update
     void Start()
     {
-        turn = 0;
+        go = true;
+        turn = "Player";
+        won.SetActive(false);
         movedesc.SetActive(false);
         fight.SetActive(false);
         status.SetActive(false);
@@ -47,6 +51,19 @@ public class Options : MonoBehaviour
             items.SetActive(false);
             movedesc.SetActive(false);
         }
+    }
+
+    void FixedUpdate()
+    {
+        if(turn.Equals("Enemy") && go)
+        {
+            if(enemy.name.Equals("slime"))
+            {
+                Attack(enemy.GetComponent<Enemy>().SlimeAttack());
+            }
+            go = false;
+        }
+
     }
 
     public void Fight()
@@ -78,24 +95,47 @@ public class Options : MonoBehaviour
         else
         {
             run.GetComponentInChildren<Text>().text = "Escape Failed!";
+            StartCoroutine(TurnChange());
         }
-        turn = 1;
     }
 
-    public void Attack(Moves move)
+    public void Attack(Moves move/*, Lerp lerp*/)
     {
         if (Random.value < (move.accuracy))
         {
-            attackDisplay.GetComponentInChildren<Text>().text = "Player succesfully used " + move.name;
+            //lerp.SetMove(true);
+            attackDisplay.GetComponentInChildren<Text>().text = turn + " succesfully used " + move.name;
             attackDisplay.SetActive(true);
+            if(turn.Equals("Player"))
+            {
+                enemy.GetComponent<Enemy>().health -= move.power;
+                if (enemy.GetComponent<Enemy>().health <= 0)
+                    enemy.GetComponent<Enemy>().health = 0;
+            }
         }
         else
         {
-            attackDisplay.GetComponentInChildren<Text>().text = "Player missed " + move.name;
+            attackDisplay.GetComponentInChildren<Text>().text = turn + " missed " + move.name;
             attackDisplay.SetActive(true);
         }
+        StartCoroutine(TurnChange());
+    }
 
-        turn = 1;
+    IEnumerator TurnChange()
+    {
+        yield return new WaitForSeconds(1.5f);
+        if (enemy.GetComponent<Enemy>().health > 0)
+        {
+            if (turn.Equals("Player"))
+            {
+                go = true;
+                turn = "Enemy";
+            }
+            else
+                turn = "Player";
+        }
+        if (enemy.GetComponent<Enemy>().health == 0)
+            won.SetActive(true);
     }
 
 }
