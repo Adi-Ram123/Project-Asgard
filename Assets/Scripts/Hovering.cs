@@ -15,6 +15,7 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] Text power;
     [SerializeField] Text accuracy;
     [SerializeField] Text mp;
+    [SerializeField] GameObject battle;
 
     [SerializeField] GameObject player;
 
@@ -25,6 +26,7 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         lerp.SetMove(true);
+        battle.GetComponent<Options>().Attack(move);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -32,7 +34,7 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         desc.text = move.desc;
         type.text = "Type: " + move.type;
         power.text = "Power: " + move.power.ToString();
-        accuracy.text = "Accuracy: " + move.accuracy.ToString();
+        accuracy.text = "Accuracy: " + (move.accuracy*100).ToString();
         mp.text = "MP Cost: " + move.mp.ToString();
         health.SetActive(false);
         movedesc.SetActive(true);

@@ -15,6 +15,7 @@ public class Options : MonoBehaviour
     [SerializeField] GameObject itemdesc;
     [SerializeField] GameObject status;
     [SerializeField] GameObject run;
+    [SerializeField] GameObject attackDisplay;
 
     [SerializeField] GameObject enemy;
 
@@ -29,7 +30,7 @@ public class Options : MonoBehaviour
         run.SetActive(false);
         items.SetActive(false);
         itemdesc.SetActive(false);
-
+        attackDisplay.SetActive(false);
     }
 
     // Update is called once per frame
@@ -81,9 +82,20 @@ public class Options : MonoBehaviour
         turn = 1;
     }
 
-    public void Attack()
+    public void Attack(Moves move)
     {
-        
+        if (Random.value < (move.accuracy))
+        {
+            attackDisplay.GetComponentInChildren<Text>().text = "Player succesfully used " + move.name;
+            attackDisplay.SetActive(true);
+        }
+        else
+        {
+            attackDisplay.GetComponentInChildren<Text>().text = "Player missed " + move.name;
+            attackDisplay.SetActive(true);
+        }
+
+        turn = 1;
     }
 
 }
