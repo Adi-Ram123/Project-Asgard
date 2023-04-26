@@ -21,7 +21,7 @@ public class ExampleSiblingRuleTile : RuleTile
 
     public class Neighbor : RuleTile.TilingRule.Neighbor
     {
-        public const int Specified = 3;
+        public const int Specified = 3; 
     }
 
     public override bool RuleMatch(int neighbor, TileBase tile)
