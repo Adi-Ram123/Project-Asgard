@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3669454081298968518}
   - component: {fileID: 3669454081298968519}
   - component: {fileID: 3669454081298968504}
-  - component: {fileID: 3669454081298968505}
   - component: {fileID: 3669454081298968517}
+  - component: {fileID: 7367034054397515388}
+  - component: {fileID: 1477856789547904865}
   m_Layer: 0
   m_Name: Barb
   m_TagString: Untagged
@@ -107,19 +108,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &3669454081298968505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3669454081298968506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0909511f984346941bc48a0c59a75b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
 --- !u!50 &3669454081298968517
 Rigidbody2D:
   serializedVersion: 4
@@ -141,3 +129,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7367034054397515388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669454081298968506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 467d806bf6f9f9448b6c697da8f8bd07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalPosition: {x: 3, y: -0.68, z: 0}
+  speed: 3
+  startPos: {x: -6.3, y: -0.68, z: 0}
+--- !u!114 &1477856789547904865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669454081298968506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0909511f984346941bc48a0c59a75b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  combat: 1
+  enemy: {fileID: 0}
