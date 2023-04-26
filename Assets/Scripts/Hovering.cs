@@ -27,8 +27,8 @@ public class Hovering : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         if (battle.GetComponent<Options>().turn.Equals("Player"))
         {
-            lerp.SetMove(true); // remove once slime lerp is made
-            battle.GetComponent<Options>().Attack(move/*, lerp*/);
+            //lerp.SetMove(true); // remove once slime lerp is made
+            battle.GetComponent<Options>().Attack(move, lerp);
         }
     }
 

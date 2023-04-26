@@ -48,9 +48,11 @@ public class Lerp : MonoBehaviour
 
     IEnumerator SlashAnimation()
     {
-        anime.SetBool("Slash", true);
+        if (gameObject.name.Equals("Barb"))
+            anime.SetBool("Slash", true);
         yield return new WaitForSeconds(1f);
-        anime.SetBool("Slash", false);
+        if (gameObject.name.Equals("Barb"))
+            anime.SetBool("Slash", false);
         tar = 0;
         move = false;
     }

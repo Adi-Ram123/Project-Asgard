@@ -18,6 +18,10 @@ public class Options : MonoBehaviour
     [SerializeField] GameObject run;
     [SerializeField] GameObject attackDisplay;
     [SerializeField] GameObject won;
+    [SerializeField] GameObject lost;
+    [SerializeField] GameObject lifeBar;
+    [SerializeField] float hp;
+    private float maxHp;
 
     [SerializeField] GameObject enemy;
     public bool go;
@@ -25,8 +29,10 @@ public class Options : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        maxHp = hp;
         go = true;
         turn = "Player";
+        lost.SetActive(false);
         won.SetActive(false);
         movedesc.SetActive(false);
         fight.SetActive(false);
@@ -59,7 +65,7 @@ public class Options : MonoBehaviour
         {
             if(enemy.name.Equals("slime"))
             {
-                Attack(enemy.GetComponent<Enemy>().SlimeAttack());
+                Attack(enemy.GetComponent<Enemy>().SlimeAttack(), enemy.GetComponent<Lerp>());
             }
             go = false;
         }
@@ -99,11 +105,12 @@ public class Options : MonoBehaviour
         }
     }
 
-    public void Attack(Moves move/*, Lerp lerp*/)
+    public void Attack(Moves move, Lerp lerp)
     {
         if (Random.value < (move.accuracy))
         {
-            //lerp.SetMove(true);
+            if(!move.type.Equals("healer"))
+                lerp.SetMove(true);
             attackDisplay.GetComponentInChildren<Text>().text = turn + " succesfully used " + move.name;
             attackDisplay.SetActive(true);
             if(turn.Equals("Player"))
@@ -111,7 +118,18 @@ public class Options : MonoBehaviour
                 enemy.GetComponent<Enemy>().health -= move.power;
                 if (enemy.GetComponent<Enemy>().health <= 0)
                     enemy.GetComponent<Enemy>().health = 0;
+
+                if (move.type.Equals("healer"))
+                    hp += 0.2f * maxHp;
+                if (hp > 200) { hp = 200; }
             }
+            if (turn.Equals("Enemy"))
+            {
+                hp -= move.power;
+                if (hp <= 0)
+                    hp = 0;
+            }
+            lifeBar.GetComponent<Slider>().value = hp / maxHp;
         }
         else
         {
@@ -123,7 +141,7 @@ public class Options : MonoBehaviour
 
     IEnumerator TurnChange()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.75f);
         if (enemy.GetComponent<Enemy>().health > 0)
         {
             if (turn.Equals("Player"))
@@ -136,6 +154,8 @@ public class Options : MonoBehaviour
         }
         if (enemy.GetComponent<Enemy>().health == 0)
             won.SetActive(true);
+        if (hp == 0)
+            lost.SetActive(true);
     }
 
 }

@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
 
     public Moves SlimeAttack()
     {
-        if(health < 0.8f*maxHealth)
+        if(health < 0.5f*maxHealth)
         {
             for(int i=0; i< attacks.Count; i++)
             {
