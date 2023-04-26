@@ -74,6 +74,7 @@ public class Options : MonoBehaviour
 
     public void Fight()
     {
+        status.SetActive(false);
         mainCanvas.SetActive(false);
         fight.SetActive(true);
     }
