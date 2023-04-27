@@ -1771,6 +1771,7 @@ MonoBehaviour:
   attackDisplay: {fileID: 632583251}
   won: {fileID: 1261444598}
   lost: {fileID: 249423050}
+  lifeBar: {fileID: 1270963346}
   hp: 200
   enemy: {fileID: 683404723}
   go: 0
@@ -3323,6 +3324,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3669454081298968506, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
   m_PrefabInstance: {fileID: 1893637663}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &506062694 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3669454081298968517, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+  m_PrefabInstance: {fileID: 1893637663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &506062695 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3669454081298968504, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+  m_PrefabInstance: {fileID: 1893637663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &510327323
 GameObject:
   m_ObjectHideFlags: 0
@@ -4339,11 +4350,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5683f6c1a3c3b8c42978f7509a6b4254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 120
   mana: 5
   type: slime
   moveCount: 2
-  maxHealth: 100
+  maxHealth: 120
   healthShow: {fileID: 1235765213}
 --- !u!114 &683404727
 MonoBehaviour:
@@ -7711,6 +7722,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1477856789547904865, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 506062694}
+    - target: {fileID: 1477856789547904865, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 506062695}
     - target: {fileID: 3669454081298968506, guid: 6d45ec78d9d847c4f8f1d53107de2c60, type: 3}
       propertyPath: m_Name
       value: Barb
