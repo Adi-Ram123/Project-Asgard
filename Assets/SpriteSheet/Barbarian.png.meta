@@ -108,10 +108,10 @@ TextureImporter:
       name: Barbarian_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 2048
-        width: 60
-        height: 60
+        x: 15
+        y: 2049
+        width: 33
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: Barbarian_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 2048
-        width: 60
-        height: 60
+        x: 80
+        y: 2049
+        width: 32
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Barbarian_2
       rect:
         serializedVersion: 2
-        x: 132
-        y: 2048
-        width: 60
-        height: 60
+        x: 145
+        y: 2049
+        width: 31
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Barbarian_3
       rect:
         serializedVersion: 2
-        x: 196
-        y: 2048
-        width: 60
-        height: 60
+        x: 205
+        y: 2049
+        width: 37
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: Barbarian_4
       rect:
         serializedVersion: 2
-        x: 260
-        y: 2048
-        width: 60
-        height: 60
+        x: 262
+        y: 2049
+        width: 52
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Barbarian_5
       rect:
         serializedVersion: 2
-        x: 324
-        y: 2048
-        width: 60
-        height: 60
+        x: 327
+        y: 2049
+        width: 49
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Barbarian_6
       rect:
         serializedVersion: 2
-        x: 388
-        y: 2048
-        width: 60
-        height: 60
+        x: 397
+        y: 2049
+        width: 37
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: Barbarian_7
       rect:
         serializedVersion: 2
-        x: 452
-        y: 2048
-        width: 60
-        height: 60
+        x: 449
+        y: 2084
+        width: 38
+        height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Barbarian_8
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1984
-        width: 60
-        height: 60
+        x: 488
+        y: 2084
+        width: 11
+        height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Barbarian_9
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1984
-        width: 60
-        height: 60
+        x: 500
+        y: 2084
+        width: 13
+        height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: Barbarian_10
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1984
-        width: 60
-        height: 60
+        x: 455
+        y: 2075
+        width: 4
+        height: 8
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Barbarian_11
       rect:
         serializedVersion: 2
-        x: 196
+        x: 21
         y: 1984
-        width: 60
-        height: 60
+        width: 22
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: Barbarian_12
       rect:
         serializedVersion: 2
-        x: 260
+        x: 85
         y: 1984
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: Barbarian_13
       rect:
         serializedVersion: 2
-        x: 324
+        x: 149
         y: 1984
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Barbarian_14
       rect:
         serializedVersion: 2
-        x: 388
+        x: 211
         y: 1984
-        width: 60
-        height: 60
+        width: 27
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: Barbarian_15
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1920
-        width: 60
-        height: 60
+        x: 273
+        y: 1984
+        width: 34
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: Barbarian_16
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1920
-        width: 60
-        height: 60
+        x: 337
+        y: 1984
+        width: 34
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: Barbarian_17
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1920
-        width: 60
-        height: 60
+        x: 403
+        y: 1984
+        width: 30
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: Barbarian_18
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1920
-        width: 60
-        height: 60
+        x: 15
+        y: 1919
+        width: 33
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: Barbarian_19
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1920
-        width: 60
-        height: 60
+        x: 79
+        y: 1919
+        width: 33
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: Barbarian_20
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1920
-        width: 60
-        height: 60
+        x: 145
+        y: 1919
+        width: 29
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: Barbarian_21
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1920
-        width: 60
-        height: 60
+        x: 205
+        y: 1919
+        width: 37
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: Barbarian_22
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1856
-        width: 60
-        height: 60
+        x: 262
+        y: 1919
+        width: 52
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: Barbarian_23
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1856
-        width: 60
-        height: 60
+        x: 327
+        y: 1919
+        width: 49
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: Barbarian_24
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1856
-        width: 60
-        height: 60
+        x: 398
+        y: 1919
+        width: 35
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +633,10 @@ TextureImporter:
       name: Barbarian_25
       rect:
         serializedVersion: 2
-        x: 196
+        x: 20
         y: 1856
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: Barbarian_26
       rect:
         serializedVersion: 2
-        x: 260
+        x: 84
         y: 1856
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,10 +675,10 @@ TextureImporter:
       name: Barbarian_27
       rect:
         serializedVersion: 2
-        x: 324
+        x: 147
         y: 1856
-        width: 60
-        height: 60
+        width: 24
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,10 +696,10 @@ TextureImporter:
       name: Barbarian_28
       rect:
         serializedVersion: 2
-        x: 388
+        x: 209
         y: 1856
-        width: 60
-        height: 60
+        width: 27
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +717,10 @@ TextureImporter:
       name: Barbarian_29
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1792
-        width: 60
-        height: 60
+        x: 268
+        y: 1856
+        width: 34
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +738,10 @@ TextureImporter:
       name: Barbarian_30
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1792
-        width: 60
-        height: 60
+        x: 332
+        y: 1856
+        width: 35
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,10 +759,10 @@ TextureImporter:
       name: Barbarian_31
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1792
-        width: 60
-        height: 60
+        x: 399
+        y: 1856
+        width: 30
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,10 +780,10 @@ TextureImporter:
       name: Barbarian_32
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1792
-        width: 60
-        height: 60
+        x: 9
+        y: 1793
+        width: 39
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,10 +801,10 @@ TextureImporter:
       name: Barbarian_33
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1792
-        width: 60
-        height: 60
+        x: 76
+        y: 1791
+        width: 34
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: Barbarian_34
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1792
-        width: 60
-        height: 60
+        x: 144
+        y: 1791
+        width: 29
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,10 +843,10 @@ TextureImporter:
       name: Barbarian_35
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1792
-        width: 60
-        height: 60
+        x: 210
+        y: 1791
+        width: 27
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,10 +864,10 @@ TextureImporter:
       name: Barbarian_36
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1792
-        width: 60
-        height: 60
+        x: 276
+        y: 1791
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,10 +885,10 @@ TextureImporter:
       name: Barbarian_37
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1728
-        width: 60
-        height: 60
+        x: 341
+        y: 1791
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,10 +906,10 @@ TextureImporter:
       name: Barbarian_38
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1728
-        width: 60
-        height: 60
+        x: 404
+        y: 1791
+        width: 27
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,10 +927,10 @@ TextureImporter:
       name: Barbarian_39
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1728
-        width: 60
-        height: 60
+        x: 466
+        y: 1791
+        width: 28
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -948,10 +948,10 @@ TextureImporter:
       name: Barbarian_40
       rect:
         serializedVersion: 2
-        x: 196
+        x: 21
         y: 1728
-        width: 60
-        height: 60
+        width: 31
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -969,10 +969,10 @@ TextureImporter:
       name: Barbarian_41
       rect:
         serializedVersion: 2
-        x: 260
+        x: 83
         y: 1728
-        width: 60
-        height: 60
+        width: 34
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -990,10 +990,10 @@ TextureImporter:
       name: Barbarian_42
       rect:
         serializedVersion: 2
-        x: 324
+        x: 146
         y: 1728
-        width: 60
-        height: 60
+        width: 37
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1011,10 +1011,10 @@ TextureImporter:
       name: Barbarian_43
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1728
-        width: 60
-        height: 60
+        x: 212
+        y: 1727
+        width: 34
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1032,10 +1032,10 @@ TextureImporter:
       name: Barbarian_44
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1728
-        width: 60
-        height: 60
+        x: 270
+        y: 1727
+        width: 32
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,10 +1053,10 @@ TextureImporter:
       name: Barbarian_45
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1664
-        width: 60
-        height: 60
+        x: 331
+        y: 1727
+        width: 33
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,10 +1074,10 @@ TextureImporter:
       name: Barbarian_46
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1664
-        width: 60
-        height: 60
+        x: 398
+        y: 1727
+        width: 32
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1095,10 +1095,10 @@ TextureImporter:
       name: Barbarian_47
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1664
-        width: 60
-        height: 60
+        x: 468
+        y: 1727
+        width: 34
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1116,10 +1116,10 @@ TextureImporter:
       name: Barbarian_48
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1664
-        width: 60
-        height: 60
+        x: 15
+        y: 1663
+        width: 38
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,10 +1137,10 @@ TextureImporter:
       name: Barbarian_49
       rect:
         serializedVersion: 2
-        x: 260
+        x: 81
         y: 1664
-        width: 60
-        height: 60
+        width: 33
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1158,10 +1158,10 @@ TextureImporter:
       name: Barbarian_50
       rect:
         serializedVersion: 2
-        x: 324
+        x: 147
         y: 1664
-        width: 60
-        height: 60
+        width: 27
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,10 +1179,10 @@ TextureImporter:
       name: Barbarian_51
       rect:
         serializedVersion: 2
-        x: 388
+        x: 209
         y: 1664
-        width: 60
-        height: 60
+        width: 28
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1200,10 +1200,10 @@ TextureImporter:
       name: Barbarian_52
       rect:
         serializedVersion: 2
-        x: 452
+        x: 275
         y: 1664
-        width: 60
-        height: 60
+        width: 28
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,10 +1221,10 @@ TextureImporter:
       name: Barbarian_53
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1600
-        width: 60
-        height: 60
+        x: 339
+        y: 1664
+        width: 28
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1242,10 +1242,10 @@ TextureImporter:
       name: Barbarian_54
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1600
-        width: 60
-        height: 60
+        x: 403
+        y: 1664
+        width: 30
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,10 +1263,10 @@ TextureImporter:
       name: Barbarian_55
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1600
-        width: 60
-        height: 60
+        x: 465
+        y: 1664
+        width: 29
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1284,10 +1284,10 @@ TextureImporter:
       name: Barbarian_56
       rect:
         serializedVersion: 2
-        x: 196
+        x: 12
         y: 1600
-        width: 60
-        height: 60
+        width: 31
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1305,10 +1305,10 @@ TextureImporter:
       name: Barbarian_57
       rect:
         serializedVersion: 2
-        x: 260
+        x: 75
         y: 1600
-        width: 60
-        height: 60
+        width: 34
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1326,10 +1326,10 @@ TextureImporter:
       name: Barbarian_58
       rect:
         serializedVersion: 2
-        x: 324
+        x: 137
         y: 1600
-        width: 60
-        height: 60
+        width: 36
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1347,10 +1347,10 @@ TextureImporter:
       name: Barbarian_59
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1600
-        width: 60
-        height: 60
+        x: 201
+        y: 1599
+        width: 35
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1368,10 +1368,10 @@ TextureImporter:
       name: Barbarian_60
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1600
-        width: 60
-        height: 60
+        x: 274
+        y: 1599
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1389,10 +1389,10 @@ TextureImporter:
       name: Barbarian_61
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1536
-        width: 60
-        height: 60
+        x: 340
+        y: 1599
+        width: 32
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1410,10 +1410,10 @@ TextureImporter:
       name: Barbarian_62
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1536
-        width: 60
-        height: 60
+        x: 402
+        y: 1599
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,10 +1431,10 @@ TextureImporter:
       name: Barbarian_63
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1536
-        width: 60
-        height: 60
+        x: 457
+        y: 1599
+        width: 35
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1452,10 +1452,10 @@ TextureImporter:
       name: Barbarian_64
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1536
-        width: 60
-        height: 60
+        x: 9
+        y: 1539
+        width: 51
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1473,10 +1473,10 @@ TextureImporter:
       name: Barbarian_65
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1536
-        width: 60
-        height: 60
+        x: 73
+        y: 1539
+        width: 51
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1494,10 +1494,10 @@ TextureImporter:
       name: Barbarian_66
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1536
-        width: 60
-        height: 60
+        x: 137
+        y: 1538
+        width: 51
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1515,10 +1515,10 @@ TextureImporter:
       name: Barbarian_67
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1536
-        width: 60
-        height: 60
+        x: 201
+        y: 1537
+        width: 50
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1536,10 +1536,10 @@ TextureImporter:
       name: Barbarian_68
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1536
-        width: 60
-        height: 60
+        x: 266
+        y: 1538
+        width: 50
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1557,10 +1557,10 @@ TextureImporter:
       name: Barbarian_69
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1536
-        width: 60
-        height: 60
+        x: 330
+        y: 1539
+        width: 50
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1578,10 +1578,10 @@ TextureImporter:
       name: Barbarian_70
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1472
-        width: 60
-        height: 60
+        x: 394
+        y: 1538
+        width: 49
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1599,10 +1599,10 @@ TextureImporter:
       name: Barbarian_71
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1472
-        width: 60
-        height: 60
+        x: 459
+        y: 1537
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1620,10 +1620,10 @@ TextureImporter:
       name: Barbarian_72
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1472
-        width: 60
-        height: 60
+        x: 522
+        y: 1538
+        width: 49
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1641,10 +1641,10 @@ TextureImporter:
       name: Barbarian_73
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1472
-        width: 60
-        height: 60
+        x: 9
+        y: 1473
+        width: 47
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1662,10 +1662,10 @@ TextureImporter:
       name: Barbarian_74
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1472
-        width: 60
-        height: 60
+        x: 77
+        y: 1474
+        width: 48
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1683,10 +1683,10 @@ TextureImporter:
       name: Barbarian_75
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1472
-        width: 60
-        height: 60
+        x: 142
+        y: 1475
+        width: 48
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1704,10 +1704,10 @@ TextureImporter:
       name: Barbarian_76
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1472
-        width: 60
-        height: 60
+        x: 202
+        y: 1475
+        width: 47
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1725,10 +1725,10 @@ TextureImporter:
       name: Barbarian_77
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1472
-        width: 60
-        height: 60
+        x: 263
+        y: 1474
+        width: 47
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1746,10 +1746,10 @@ TextureImporter:
       name: Barbarian_78
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1472
-        width: 60
-        height: 60
+        x: 324
+        y: 1474
+        width: 49
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1767,10 +1767,10 @@ TextureImporter:
       name: Barbarian_79
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1408
-        width: 60
-        height: 60
+        x: 393
+        y: 1474
+        width: 47
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1788,10 +1788,10 @@ TextureImporter:
       name: Barbarian_80
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1408
-        width: 60
-        height: 60
+        x: 462
+        y: 1474
+        width: 47
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1809,10 +1809,10 @@ TextureImporter:
       name: Barbarian_81
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1408
-        width: 60
-        height: 60
+        x: 527
+        y: 1474
+        width: 47
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1830,10 +1830,10 @@ TextureImporter:
       name: Barbarian_82
       rect:
         serializedVersion: 2
-        x: 196
+        x: 11
         y: 1408
-        width: 60
-        height: 60
+        width: 53
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1851,10 +1851,10 @@ TextureImporter:
       name: Barbarian_83
       rect:
         serializedVersion: 2
-        x: 260
+        x: 76
         y: 1408
-        width: 60
-        height: 60
+        width: 52
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1872,10 +1872,10 @@ TextureImporter:
       name: Barbarian_84
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1408
-        width: 60
-        height: 60
+        x: 139
+        y: 1409
+        width: 53
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1893,10 +1893,10 @@ TextureImporter:
       name: Barbarian_85
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1408
-        width: 60
-        height: 60
+        x: 203
+        y: 1409
+        width: 52
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1914,10 +1914,10 @@ TextureImporter:
       name: Barbarian_86
       rect:
         serializedVersion: 2
-        x: 452
+        x: 267
         y: 1408
-        width: 60
-        height: 60
+        width: 53
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1935,10 +1935,10 @@ TextureImporter:
       name: Barbarian_87
       rect:
         serializedVersion: 2
-        x: 516
+        x: 330
         y: 1408
-        width: 60
-        height: 60
+        width: 54
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1956,10 +1956,10 @@ TextureImporter:
       name: Barbarian_88
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1344
-        width: 60
-        height: 60
+        x: 395
+        y: 1409
+        width: 53
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1977,10 +1977,10 @@ TextureImporter:
       name: Barbarian_89
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1344
-        width: 60
-        height: 60
+        x: 459
+        y: 1409
+        width: 52
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1998,10 +1998,10 @@ TextureImporter:
       name: Barbarian_90
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1344
-        width: 60
-        height: 60
+        x: 523
+        y: 1408
+        width: 52
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2019,10 +2019,10 @@ TextureImporter:
       name: Barbarian_91
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1344
-        width: 60
-        height: 60
+        x: 8
+        y: 1345
+        width: 47
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2040,10 +2040,10 @@ TextureImporter:
       name: Barbarian_92
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1344
-        width: 60
-        height: 60
+        x: 67
+        y: 1346
+        width: 47
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2061,10 +2061,10 @@ TextureImporter:
       name: Barbarian_93
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1344
-        width: 60
-        height: 60
+        x: 130
+        y: 1347
+        width: 47
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2082,10 +2082,10 @@ TextureImporter:
       name: Barbarian_94
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1344
-        width: 60
-        height: 60
+        x: 199
+        y: 1347
+        width: 46
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2103,10 +2103,10 @@ TextureImporter:
       name: Barbarian_95
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1344
-        width: 60
-        height: 60
+        x: 265
+        y: 1346
+        width: 47
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2124,10 +2124,10 @@ TextureImporter:
       name: Barbarian_96
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1344
-        width: 60
-        height: 60
+        x: 330
+        y: 1346
+        width: 50
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2145,10 +2145,10 @@ TextureImporter:
       name: Barbarian_97
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1280
-        width: 60
-        height: 60
+        x: 391
+        y: 1346
+        width: 47
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2166,10 +2166,10 @@ TextureImporter:
       name: Barbarian_98
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1280
-        width: 60
-        height: 60
+        x: 451
+        y: 1346
+        width: 47
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2187,10 +2187,10 @@ TextureImporter:
       name: Barbarian_99
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1280
-        width: 60
-        height: 60
+        x: 514
+        y: 1346
+        width: 47
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2208,10 +2208,10 @@ TextureImporter:
       name: Barbarian_100
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1280
-        width: 60
-        height: 60
+        x: 9
+        y: 1282
+        width: 41
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2229,10 +2229,10 @@ TextureImporter:
       name: Barbarian_101
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1280
-        width: 60
-        height: 60
+        x: 76
+        y: 1281
+        width: 35
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2250,10 +2250,10 @@ TextureImporter:
       name: Barbarian_102
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1280
-        width: 60
-        height: 60
+        x: 140
+        y: 1281
+        width: 33
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2271,10 +2271,10 @@ TextureImporter:
       name: Barbarian_103
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1216
-        width: 60
-        height: 60
+        x: 203
+        y: 1281
+        width: 36
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2292,10 +2292,10 @@ TextureImporter:
       name: Barbarian_104
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1216
-        width: 60
-        height: 60
+        x: 268
+        y: 1281
+        width: 42
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2313,10 +2313,10 @@ TextureImporter:
       name: Barbarian_105
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1216
-        width: 60
-        height: 60
+        x: 332
+        y: 1281
+        width: 45
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2334,10 +2334,10 @@ TextureImporter:
       name: Barbarian_106
       rect:
         serializedVersion: 2
-        x: 196
+        x: 21
         y: 1216
-        width: 60
-        height: 60
+        width: 30
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2355,10 +2355,10 @@ TextureImporter:
       name: Barbarian_107
       rect:
         serializedVersion: 2
-        x: 260
+        x: 80
         y: 1216
-        width: 60
-        height: 60
+        width: 34
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2376,10 +2376,10 @@ TextureImporter:
       name: Barbarian_108
       rect:
         serializedVersion: 2
-        x: 324
+        x: 146
         y: 1216
-        width: 60
-        height: 60
+        width: 32
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2397,10 +2397,10 @@ TextureImporter:
       name: Barbarian_109
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1152
-        width: 60
-        height: 60
+        x: 202
+        y: 1216
+        width: 41
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2418,10 +2418,10 @@ TextureImporter:
       name: Barbarian_110
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1152
-        width: 60
-        height: 60
+        x: 263
+        y: 1216
+        width: 45
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2439,10 +2439,10 @@ TextureImporter:
       name: Barbarian_111
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1152
-        width: 60
-        height: 60
+        x: 330
+        y: 1216
+        width: 43
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2460,10 +2460,10 @@ TextureImporter:
       name: Barbarian_112
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1152
-        width: 60
-        height: 60
+        x: 11
+        y: 1151
+        width: 37
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2481,10 +2481,10 @@ TextureImporter:
       name: Barbarian_113
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1152
-        width: 60
-        height: 60
+        x: 75
+        y: 1151
+        width: 35
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2502,10 +2502,10 @@ TextureImporter:
       name: Barbarian_114
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1152
-        width: 60
-        height: 60
+        x: 138
+        y: 1151
+        width: 36
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2523,10 +2523,10 @@ TextureImporter:
       name: Barbarian_115
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1088
-        width: 60
-        height: 60
+        x: 205
+        y: 1152
+        width: 34
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2544,10 +2544,10 @@ TextureImporter:
       name: Barbarian_116
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1088
-        width: 60
-        height: 60
+        x: 270
+        y: 1152
+        width: 41
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2565,10 +2565,10 @@ TextureImporter:
       name: Barbarian_117
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1088
-        width: 60
-        height: 60
+        x: 334
+        y: 1152
+        width: 44
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2586,10 +2586,10 @@ TextureImporter:
       name: Barbarian_118
       rect:
         serializedVersion: 2
-        x: 196
+        x: 13
         y: 1088
-        width: 60
-        height: 60
+        width: 30
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2607,10 +2607,10 @@ TextureImporter:
       name: Barbarian_119
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1088
-        width: 60
-        height: 60
+        x: 77
+        y: 1087
+        width: 34
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2628,10 +2628,10 @@ TextureImporter:
       name: Barbarian_120
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1088
-        width: 60
-        height: 60
+        x: 141
+        y: 1087
+        width: 32
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2649,10 +2649,10 @@ TextureImporter:
       name: Barbarian_121
       rect:
         serializedVersion: 2
-        x: 4
-        y: 1024
-        width: 60
-        height: 60
+        x: 204
+        y: 1087
+        width: 41
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2670,10 +2670,10 @@ TextureImporter:
       name: Barbarian_122
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1024
-        width: 60
-        height: 60
+        x: 267
+        y: 1087
+        width: 45
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2691,10 +2691,10 @@ TextureImporter:
       name: Barbarian_123
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1024
-        width: 60
-        height: 60
+        x: 330
+        y: 1087
+        width: 43
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2712,10 +2712,10 @@ TextureImporter:
       name: Barbarian_124
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1024
-        width: 60
-        height: 60
+        x: 15
+        y: 1025
+        width: 32
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2733,10 +2733,10 @@ TextureImporter:
       name: Barbarian_125
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1024
-        width: 60
-        height: 60
+        x: 83
+        y: 1023
+        width: 25
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2754,10 +2754,10 @@ TextureImporter:
       name: Barbarian_126
       rect:
         serializedVersion: 2
-        x: 324
-        y: 1024
-        width: 60
-        height: 60
+        x: 147
+        y: 1023
+        width: 25
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2775,10 +2775,10 @@ TextureImporter:
       name: Barbarian_127
       rect:
         serializedVersion: 2
-        x: 388
-        y: 1024
-        width: 60
-        height: 60
+        x: 210
+        y: 1023
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2796,10 +2796,10 @@ TextureImporter:
       name: Barbarian_128
       rect:
         serializedVersion: 2
-        x: 452
-        y: 1024
-        width: 60
-        height: 60
+        x: 274
+        y: 1023
+        width: 29
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2817,10 +2817,10 @@ TextureImporter:
       name: Barbarian_129
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1024
-        width: 60
-        height: 60
+        x: 338
+        y: 1023
+        width: 28
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2838,10 +2838,10 @@ TextureImporter:
       name: Barbarian_130
       rect:
         serializedVersion: 2
-        x: 580
-        y: 1024
-        width: 60
-        height: 60
+        x: 402
+        y: 1023
+        width: 29
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2859,10 +2859,10 @@ TextureImporter:
       name: Barbarian_131
       rect:
         serializedVersion: 2
-        x: 644
-        y: 1024
-        width: 60
-        height: 60
+        x: 466
+        y: 1023
+        width: 30
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2880,10 +2880,10 @@ TextureImporter:
       name: Barbarian_132
       rect:
         serializedVersion: 2
-        x: 708
-        y: 1024
-        width: 60
-        height: 60
+        x: 530
+        y: 1023
+        width: 31
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2901,10 +2901,10 @@ TextureImporter:
       name: Barbarian_133
       rect:
         serializedVersion: 2
-        x: 772
-        y: 1024
-        width: 60
-        height: 60
+        x: 594
+        y: 1023
+        width: 30
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2922,10 +2922,10 @@ TextureImporter:
       name: Barbarian_134
       rect:
         serializedVersion: 2
-        x: 4
-        y: 960
-        width: 60
-        height: 60
+        x: 658
+        y: 1023
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2943,10 +2943,10 @@ TextureImporter:
       name: Barbarian_135
       rect:
         serializedVersion: 2
-        x: 68
-        y: 960
-        width: 60
-        height: 60
+        x: 722
+        y: 1023
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2964,10 +2964,10 @@ TextureImporter:
       name: Barbarian_136
       rect:
         serializedVersion: 2
-        x: 132
-        y: 960
-        width: 60
-        height: 60
+        x: 786
+        y: 1023
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2985,10 +2985,10 @@ TextureImporter:
       name: Barbarian_137
       rect:
         serializedVersion: 2
-        x: 196
+        x: 22
         y: 960
-        width: 60
-        height: 60
+        width: 22
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3006,10 +3006,10 @@ TextureImporter:
       name: Barbarian_138
       rect:
         serializedVersion: 2
-        x: 260
+        x: 86
         y: 960
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3027,10 +3027,10 @@ TextureImporter:
       name: Barbarian_139
       rect:
         serializedVersion: 2
-        x: 324
+        x: 147
         y: 960
-        width: 60
-        height: 60
+        width: 28
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3048,10 +3048,10 @@ TextureImporter:
       name: Barbarian_140
       rect:
         serializedVersion: 2
-        x: 388
-        y: 960
-        width: 60
-        height: 60
+        x: 209
+        y: 959
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3069,10 +3069,10 @@ TextureImporter:
       name: Barbarian_141
       rect:
         serializedVersion: 2
-        x: 452
-        y: 960
-        width: 60
-        height: 60
+        x: 274
+        y: 959
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3090,10 +3090,10 @@ TextureImporter:
       name: Barbarian_142
       rect:
         serializedVersion: 2
-        x: 516
-        y: 960
-        width: 60
-        height: 60
+        x: 337
+        y: 959
+        width: 28
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3111,10 +3111,10 @@ TextureImporter:
       name: Barbarian_143
       rect:
         serializedVersion: 2
-        x: 580
-        y: 960
-        width: 60
-        height: 60
+        x: 401
+        y: 959
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3132,10 +3132,10 @@ TextureImporter:
       name: Barbarian_144
       rect:
         serializedVersion: 2
-        x: 644
-        y: 960
-        width: 60
-        height: 60
+        x: 466
+        y: 959
+        width: 32
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3153,10 +3153,10 @@ TextureImporter:
       name: Barbarian_145
       rect:
         serializedVersion: 2
-        x: 708
-        y: 960
-        width: 60
-        height: 60
+        x: 530
+        y: 959
+        width: 34
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3174,10 +3174,10 @@ TextureImporter:
       name: Barbarian_146
       rect:
         serializedVersion: 2
-        x: 772
-        y: 960
-        width: 60
-        height: 60
+        x: 594
+        y: 959
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3195,10 +3195,10 @@ TextureImporter:
       name: Barbarian_147
       rect:
         serializedVersion: 2
-        x: 4
-        y: 896
-        width: 60
-        height: 60
+        x: 658
+        y: 959
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3216,10 +3216,10 @@ TextureImporter:
       name: Barbarian_148
       rect:
         serializedVersion: 2
-        x: 68
-        y: 896
-        width: 60
-        height: 60
+        x: 722
+        y: 959
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3237,10 +3237,10 @@ TextureImporter:
       name: Barbarian_149
       rect:
         serializedVersion: 2
-        x: 132
-        y: 896
-        width: 60
-        height: 60
+        x: 786
+        y: 959
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3258,10 +3258,10 @@ TextureImporter:
       name: Barbarian_150
       rect:
         serializedVersion: 2
-        x: 196
-        y: 896
-        width: 60
-        height: 60
+        x: 15
+        y: 895
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3279,10 +3279,10 @@ TextureImporter:
       name: Barbarian_151
       rect:
         serializedVersion: 2
-        x: 260
+        x: 80
         y: 896
-        width: 60
-        height: 60
+        width: 28
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3300,10 +3300,10 @@ TextureImporter:
       name: Barbarian_152
       rect:
         serializedVersion: 2
-        x: 324
-        y: 896
-        width: 60
-        height: 60
+        x: 146
+        y: 897
+        width: 26
+        height: 49
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3321,10 +3321,10 @@ TextureImporter:
       name: Barbarian_153
       rect:
         serializedVersion: 2
-        x: 388
-        y: 896
-        width: 60
-        height: 60
+        x: 210
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3342,10 +3342,10 @@ TextureImporter:
       name: Barbarian_154
       rect:
         serializedVersion: 2
-        x: 452
-        y: 896
-        width: 60
-        height: 60
+        x: 274
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3363,10 +3363,10 @@ TextureImporter:
       name: Barbarian_155
       rect:
         serializedVersion: 2
-        x: 516
-        y: 896
-        width: 60
-        height: 60
+        x: 338
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3384,10 +3384,10 @@ TextureImporter:
       name: Barbarian_156
       rect:
         serializedVersion: 2
-        x: 580
-        y: 896
-        width: 60
-        height: 60
+        x: 402
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3405,10 +3405,10 @@ TextureImporter:
       name: Barbarian_157
       rect:
         serializedVersion: 2
-        x: 644
-        y: 896
-        width: 60
-        height: 60
+        x: 465
+        y: 895
+        width: 27
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3426,10 +3426,10 @@ TextureImporter:
       name: Barbarian_158
       rect:
         serializedVersion: 2
-        x: 708
-        y: 896
-        width: 60
-        height: 60
+        x: 529
+        y: 895
+        width: 27
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3447,10 +3447,10 @@ TextureImporter:
       name: Barbarian_159
       rect:
         serializedVersion: 2
-        x: 772
-        y: 896
-        width: 60
-        height: 60
+        x: 594
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3468,10 +3468,10 @@ TextureImporter:
       name: Barbarian_160
       rect:
         serializedVersion: 2
-        x: 4
-        y: 832
-        width: 60
-        height: 60
+        x: 658
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3489,10 +3489,10 @@ TextureImporter:
       name: Barbarian_161
       rect:
         serializedVersion: 2
-        x: 68
-        y: 832
-        width: 60
-        height: 60
+        x: 722
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3510,10 +3510,10 @@ TextureImporter:
       name: Barbarian_162
       rect:
         serializedVersion: 2
-        x: 132
-        y: 832
-        width: 60
-        height: 60
+        x: 786
+        y: 895
+        width: 26
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3531,10 +3531,10 @@ TextureImporter:
       name: Barbarian_163
       rect:
         serializedVersion: 2
-        x: 196
+        x: 19
         y: 832
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3552,10 +3552,10 @@ TextureImporter:
       name: Barbarian_164
       rect:
         serializedVersion: 2
-        x: 260
+        x: 83
         y: 832
-        width: 60
-        height: 60
+        width: 23
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3573,10 +3573,10 @@ TextureImporter:
       name: Barbarian_165
       rect:
         serializedVersion: 2
-        x: 324
+        x: 144
         y: 832
-        width: 60
-        height: 60
+        width: 28
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3594,10 +3594,10 @@ TextureImporter:
       name: Barbarian_166
       rect:
         serializedVersion: 2
-        x: 388
-        y: 832
-        width: 60
-        height: 60
+        x: 207
+        y: 831
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3615,10 +3615,10 @@ TextureImporter:
       name: Barbarian_167
       rect:
         serializedVersion: 2
-        x: 452
-        y: 832
-        width: 60
-        height: 60
+        x: 271
+        y: 831
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3636,10 +3636,10 @@ TextureImporter:
       name: Barbarian_168
       rect:
         serializedVersion: 2
-        x: 516
-        y: 832
-        width: 60
-        height: 60
+        x: 339
+        y: 831
+        width: 28
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3657,10 +3657,10 @@ TextureImporter:
       name: Barbarian_169
       rect:
         serializedVersion: 2
-        x: 580
-        y: 832
-        width: 60
-        height: 60
+        x: 401
+        y: 831
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3678,10 +3678,10 @@ TextureImporter:
       name: Barbarian_170
       rect:
         serializedVersion: 2
-        x: 644
-        y: 832
-        width: 60
-        height: 60
+        x: 462
+        y: 831
+        width: 32
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3699,10 +3699,10 @@ TextureImporter:
       name: Barbarian_171
       rect:
         serializedVersion: 2
-        x: 708
-        y: 832
-        width: 60
-        height: 60
+        x: 524
+        y: 831
+        width: 34
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3720,10 +3720,10 @@ TextureImporter:
       name: Barbarian_172
       rect:
         serializedVersion: 2
-        x: 772
-        y: 832
-        width: 60
-        height: 60
+        x: 591
+        y: 831
+        width: 31
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3741,10 +3741,10 @@ TextureImporter:
       name: Barbarian_173
       rect:
         serializedVersion: 2
-        x: 4
-        y: 768
-        width: 60
-        height: 60
+        x: 656
+        y: 831
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3762,10 +3762,10 @@ TextureImporter:
       name: Barbarian_174
       rect:
         serializedVersion: 2
-        x: 68
-        y: 768
-        width: 60
-        height: 60
+        x: 722
+        y: 831
+        width: 28
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3783,10 +3783,10 @@ TextureImporter:
       name: Barbarian_175
       rect:
         serializedVersion: 2
-        x: 132
-        y: 768
-        width: 60
-        height: 60
+        x: 784
+        y: 831
+        width: 30
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3804,10 +3804,10 @@ TextureImporter:
       name: Barbarian_176
       rect:
         serializedVersion: 2
-        x: 196
-        y: 768
-        width: 60
-        height: 60
+        x: 15
+        y: 767
+        width: 49
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3825,10 +3825,10 @@ TextureImporter:
       name: Barbarian_177
       rect:
         serializedVersion: 2
-        x: 260
-        y: 768
-        width: 60
-        height: 60
+        x: 81
+        y: 767
+        width: 48
+        height: 50
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3846,10 +3846,10 @@ TextureImporter:
       name: Barbarian_178
       rect:
         serializedVersion: 2
-        x: 324
-        y: 768
-        width: 60
-        height: 60
+        x: 145
+        y: 767
+        width: 48
+        height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3859,6 +3859,573 @@ TextureImporter:
       bones: []
       spriteID: bdcca0d995599ee45ac776bc2559c84c
       internalID: 56466301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_179
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 768
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5654bfbf254caf641a8a42823deeaa46
+      internalID: 432801355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_180
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e77200cbcb9074290917f5853152f0
+      internalID: 202951448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_181
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e7a9b3abb6b4a4087db3121c9b5c49
+      internalID: -1923675389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_182
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 641
+        width: 51
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63759a5412dde634cbfa01211734597c
+      internalID: -788313254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_183
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 640
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4910fb0ff7691f7498795704c3ce1c7a
+      internalID: -1642947146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_184
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 640
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b04db3805d3c346b41375415d2f900
+      internalID: -1611994061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_185
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 640
+        width: 46
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c015185ced3341a5dc4e4e3ac66d1
+      internalID: -1068815113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_186
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 640
+        width: 54
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad3e1c9c7b2d7949856f872fbd43050
+      internalID: 1644819267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_187
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 640
+        width: 69
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90bfc3f3901b2f469339696eb932bd1
+      internalID: 1923329624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_188
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 449
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d06ad10daee0e4096662284de99008
+      internalID: -1533602488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_189
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 448
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adde5872290e6364b95ec69846186fea
+      internalID: 1546927159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_190
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 448
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6c27ef514cc884cb1dcdea4e305633
+      internalID: 1995386619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_191
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 448
+        width: 61
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b1e707bef8b57449d0812d4d0aef46
+      internalID: 785235181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_192
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 448
+        width: 66
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875c67ebc3b33804da3f94a6c93a7e6e
+      internalID: 34747563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_193
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 448
+        width: 66
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897dbd8ff65902947928dc566a5022ad
+      internalID: 151511051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_194
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 256
+        width: 53
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6b43c707a430c4399ecaffc070a32a
+      internalID: 47829631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_195
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 46
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450fb051071a59045a2c7bd6fbfd519c
+      internalID: 417894618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_196
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 47
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157c2c5cf0712f2459cfb77538eb5c80
+      internalID: -1400894532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_197
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 257
+        width: 54
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8df4cf1922397448e01f0f49292b4d
+      internalID: -584742234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_198
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 249
+        width: 67
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05b3b1c143abdd43a4ec40ab28de140
+      internalID: 221061788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_199
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 253
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042a1adc1a51564d9bbc60ef5e1ee26
+      internalID: 1656028705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_200
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37af5250f2b71b945af6b41744f2783d
+      internalID: 1187239829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_201
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 63
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfb25b9c2799914eaca92bc208b5fe5
+      internalID: -1205406699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_202
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 63
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f9d695e1ff8ef4dbe8c0ae1316f3e5
+      internalID: -130666455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_203
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 63
+        width: 60
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50f949d6ab40bc4480f3ce1b19c767b
+      internalID: 1384724180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_204
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 63
+        width: 65
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4046d132a63135459b3a9a45cc8a833
+      internalID: -132195405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian_205
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 63
+        width: 66
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a700aed66bb8dbc498038de2a2e60274
+      internalID: -1913205874
       vertices: []
       indices: 
       edges: []
@@ -3994,14 +4561,7 @@ TextureImporter:
       Barbarian_203: 1384724180
       Barbarian_204: -132195405
       Barbarian_205: -1913205874
-      Barbarian_206: 350218453
-      Barbarian_207: -2092616140
-      Barbarian_208: -1382492397
-      Barbarian_209: 308097970
       Barbarian_21: -1672929135
-      Barbarian_210: 1117095561
-      Barbarian_211: -1771230169
-      Barbarian_212: -1852008824
       Barbarian_22: 1783813818
       Barbarian_23: -85470926
       Barbarian_24: -83325994

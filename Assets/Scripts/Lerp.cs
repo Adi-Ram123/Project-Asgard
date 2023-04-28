@@ -8,7 +8,7 @@ public class Lerp : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private Vector3 startPos;
     private float cur, tar;
-    private bool atk, move;
+    private bool move;
     private Animator anime;
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class Lerp : MonoBehaviour
     {
         GetComponent<Transform>().position = startPos;
         anime = GetComponent<Animator>();
-        atk = move = false;
+        move = false;
 
     }
 
@@ -29,14 +29,18 @@ public class Lerp : MonoBehaviour
         cur = Mathf.MoveTowards(cur, tar, speed * Time.deltaTime);
 
         transform.position = Vector3.Lerp(startPos, goalPosition, cur);
-        if (!atk && cur == 1)
+        if (cur == 1)
         {
-            atk = true;
-            StartCoroutine(SlashAnimation());
+
+            if(gameObject.name.Equals("slime"))
+            {
+                StartCoroutine(EnemyLerp(0.8f));
+            }
+
+            else if(gameObject.name.Equals("Barb"))
+                SlashAnimation();
         }
 
-        else
-            atk = false;
 
     }
 
@@ -46,14 +50,24 @@ public class Lerp : MonoBehaviour
 
     }
 
-    IEnumerator SlashAnimation()
+    IEnumerator EnemyLerp(float time)
     {
-        if (gameObject.name.Equals("Barb"))
-            anime.SetBool("Slash", true);
-        yield return new WaitForSeconds(1f);
-        if (gameObject.name.Equals("Barb"))
-            anime.SetBool("Slash", false);
+        yield return new WaitForSeconds(time);
         tar = 0;
         move = false;
+    }
+
+    void SlashAnimation()
+    {
+       anime.SetBool("Slash", true);
+       
+    }
+
+    void AEEndSlash()
+    {
+        anime.SetBool("Slash", false);
+        tar = 0;
+        move = false;
+
     }
 }
